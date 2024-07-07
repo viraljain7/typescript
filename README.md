@@ -42,3 +42,69 @@ let object: any = {
   name: "viral",
 };
 ```
+
+### Function
+
+```tsx
+function addFive(num: number): number {
+  return num + 5;
+}
+
+let addSeven = (num: number): number => {
+  return num + 7;
+};
+```
+
+#
+
+> ```js
+> function getUppercase(str: string): string {
+>   return str.toUpperCase();
+> }
+> ```
+>
+> ```js
+> let getLowerCase = (str: string): string => {
+>   return str.toLocaleLowerCase();
+> };
+> ```
+
+#
+
+```js
+function isNumGreaterThanFive(num: number): boolean {
+  return num > 5;
+}
+
+let isNumLessThanFive = (num: number): boolean => {
+  return num < 5;
+};
+```
+
+#
+
+```js
+function loginUser(name: string, pass: string, isAdmin: boolean): void {}
+```
+
+#
+
+```js
+const heros = ["Dhoni", "Virat", "Rohit", "Yuvraj", "Gautam"];
+
+const print = heros.map((hero: string): string => {
+  return `${hero} is in my cricket team`;
+});
+```
+
+#
+
+```js
+function fn(x: string | number): void {
+  //do something
+}
+
+function fail(msg: string): never {
+  throw new Error(msg);
+}
+```
