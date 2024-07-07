@@ -1,3 +1,6 @@
+> [!IMPORTANT]
+> convert typescript file into javascript
+
 ```js
 tsc filename.ts
 ```
