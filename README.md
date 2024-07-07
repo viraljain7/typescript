@@ -1,4 +1,7 @@
 > [!IMPORTANT]
+>
+> # Typescript Notes
+>
 > convert typescript file into javascript
 
 ```js
