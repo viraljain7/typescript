@@ -34,3 +34,11 @@ let name: string = "viral";
 
 let isAdmin: boolean = true;
 ```
+
+### Dont use `any`
+
+```js
+let object: any = {
+  name: "viral",
+};
+```
